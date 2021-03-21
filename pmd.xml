@@ -1,0 +1,25 @@
+<ruleset xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	name="Default Maven PMD Plugin Ruleset"
+	xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
+
+	<description>
+		My rules
+	</description>
+
+	<rule ref="category/java/bestpractices.xml/UnusedImports" />
+	<rule ref="category/java/codestyle.xml/DontImportJavaLang" />
+	<rule ref="category/java/codestyle.xml/DuplicateImports" />
+	<rule ref="category/java/design.xml/UselessOverridingMethod" />
+	<rule ref="category/java/errorprone.xml/EmptyFinallyBlock" />
+	<rule ref="category/java/errorprone.xml/EmptyIfStmt" />
+	<rule ref="category/java/errorprone.xml/EmptyStatementBlock" />
+	<rule ref="category/java/errorprone.xml/EmptyStatementNotInLoop" />
+	<rule ref="category/java/errorprone.xml/EmptySwitchStatements" />
+	<rule ref="category/java/errorprone.xml/EmptySynchronizedBlock" />
+	<rule ref="category/java/errorprone.xml/EmptyTryBlock" />
+	<rule ref="category/java/errorprone.xml/EmptyWhileStmt" />
+	<rule ref="category/java/errorprone.xml/MisplacedNullCheck" />
+
+
+</ruleset>
